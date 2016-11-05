@@ -23,7 +23,7 @@ public class Graph<T> {
 	 *            the amount of nodes that will be represented
 	 */
 
-	public Graph(int size) {
+	public Graph() {
 		super();
 		nodeList = new ArrayList<Node<T>>();
 	}
